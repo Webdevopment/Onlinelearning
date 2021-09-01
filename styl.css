@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    
 }
 .header{
     min-height: 100vh;
@@ -10,6 +10,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    font-family: 'Montserrat', sans-serif;
 
 }
 nav{
@@ -74,7 +75,7 @@ nav img{
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
 }
-.btn{
+.btnn{
     width: 100px;
     height: 50px;
     background: #ff7200;
@@ -113,7 +114,7 @@ nav img{
     margin-top: 9%;
     letter-spacing: 2px;
 }
-.content .but{
+.content .butn{
     width: 180px;
     height: 50px;
     background: #ff7200;
@@ -126,7 +127,7 @@ nav img{
     transition: .4s ease;
 
 }
-.content .but a{
+.content .butn a{
     text-decoration: none;
     color: #000;
     transition: .3s ease;
