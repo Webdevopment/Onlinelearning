@@ -35,3 +35,23 @@ input[type=text]:focus, input[type=password]:focus {
     font-family: Arial,Helvetica,sans-serif;
     box-sizing: border-box;
 }
+.Btn{
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.cancel{
+    background-color: red;
+    color: white;
+    padding: 16px 20px;
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
