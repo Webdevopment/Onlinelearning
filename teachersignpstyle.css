@@ -25,3 +25,13 @@ input[type=text]:focus, input[type=password]:focus {
     background-color: #ddd;
     outline: none;
 }
+.login-box {
+    position: relative;
+    margin: 5% auto;
+    width: 750px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    font-family: Arial,Helvetica,sans-serif;
+    box-sizing: border-box;
+}
