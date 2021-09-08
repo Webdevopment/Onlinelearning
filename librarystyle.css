@@ -79,3 +79,19 @@ color: rgb(24, 46, 248);
 
 
 }
+
+.googledrive figure img
+{
+ height:250px;
+ width:250px;
+ border-radius: 50%;
+ box-shadow: aliceblue 0 0 15px;
+ 
+}
+.welcome
+{
+padding-left: 20px;
+
+
+
+}
