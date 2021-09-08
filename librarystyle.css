@@ -9,3 +9,23 @@ body
     
     
 }
+.back_button 
+{
+
+border:1px solid #3498db;
+background-color:black;
+color:white;
+height:30px;
+width:1000px;
+border-radius:5px;
+margin:0px;
+transition:all 0.3s;
+font-size: 35px;
+
+}
+
+
+.back_button:hover
+{
+transform: scale(1.1);
+}
