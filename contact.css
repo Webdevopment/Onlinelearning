@@ -200,3 +200,29 @@
 	outline: none;
 	resize: none;
 }
+@media (max-width: 700px){
+    .vertical-bar{
+        display: none;
+        
+    }
+    .bann-title{
+        margin: 80px 40px;
+    }
+    .bann-title h1{
+        font-size: 50px;
+
+    }
+    .nav-bar{
+        padding: 10px 30px;
+    }
+    .fa-bars{
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+    .nav-bar .fa{
+        display: block;
+        color: #fff;
+        margin: 10px 25px;
+        font-size: 22px;
+        cursor: pointer;
