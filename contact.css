@@ -12,3 +12,8 @@
     overflow-x: hidden;
     position: relative;
 }
+.nav-bar{
+    display: flex;
+    padding: 40px 120px;
+
+}
