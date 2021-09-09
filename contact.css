@@ -226,3 +226,29 @@
         margin: 10px 25px;
         font-size: 22px;
         cursor: pointer;
+    }
+    .nav-links{
+        height: 100hv;
+        width: 200px;
+        background: #000;
+        top: 0;
+        right: -200px;
+        position: absolute;
+        text-align: left;
+        z-index: 2;
+    }
+    .nav-links ul a{
+        display: block;
+
+    }
+
+    .nav-links .btn{
+        float: none;
+        margin-left: 25px;
+        margin-top: 10px;
+
+
+    }
+
+
+}
