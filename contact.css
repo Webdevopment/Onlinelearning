@@ -17,3 +17,10 @@
     padding: 40px 120px;
 
 }
+.nav-links{
+    flex: 1;
+}
+.nav-links ul{
+    margin-left: 50px;
+    display: inline;
+} 
