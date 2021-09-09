@@ -140,3 +140,22 @@
 	flex-direction: column;
 
 }
+.contact .content
+{
+	max-width: 800px;
+	text-align: center;
+}
+.contact .content h2
+{
+	font-size: 40px;
+	font-weight: 500;
+	color: #fff;
+
+}
+.contact .content h3
+{
+
+	font-weight: 300;
+	color: #fff;
+    font-size: 25px;
+}
