@@ -10,6 +10,11 @@ $gender = $_POST['gender'];
 $discibe = $_POST['discibe'];
 $qualification = $_POST['qualification'];
 
+$conn = new mysqli('localhost','root','','visionnew');
+	if($conn->connect_error){
+		die('Connection Failed :' .$conn->connect_error);
+	}
+
 
 
 
