@@ -169,3 +169,34 @@
     
 
 }
+.contactForm
+{
+	width: 40%;
+	padding: 40px;
+	background: #4287f5;
+}
+.contactForm h2
+{
+	font-size: 30px;
+	color: #fff;
+	font-weight: 500;
+}
+.contactForm .inputBox
+{
+	position: relative;
+	width: 50%;
+	margin-top: 10px;
+    
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+	width: 100%;
+	padding: 5px 0;
+	font-style: 16px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 2px solid #fff;
+	outline: none;
+	resize: none;
+}
