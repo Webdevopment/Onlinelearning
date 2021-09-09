@@ -14,6 +14,15 @@ $conn = new mysqli('localhost','root','','visionnew');
 	if($conn->connect_error){
 		die('Connection Failed :' .$conn->connect_error);
 	}
+    else{
+		$stmt = $conn->prepare("insert into teacher(firstname,lastname,contact,email,password,birthdate,gender,discibe,qualification)
+			values(?,?,?,?,?,?,?,?,?)");
+		$stmt->bind_param("ssissssss",$firstname, $lastname,$contact, $email,$password, $birthdate, $gender, $discibe, $qualification);
+		$stmt->execute();
+		echo "<script> window.location.assign('Untitled-1.html'); </script>";
+		$stmt->close();
+		$conn->close();
+	}
 
 
 
