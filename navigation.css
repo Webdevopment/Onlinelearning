@@ -99,3 +99,24 @@ form.example::after {
 .table5{
     background: #f1f1f1;
 }
+.music{
+    width:60%;
+    border-radius:5%;
+}
+.business{
+    width:60%;
+    border-radius:5%;
+}
+.design{
+    width:60%;
+    border-radius:5%;
+}
+.kidimg{
+     width:70%;
+      border-radius:5%;
+}
+.box{
+    color: black;
+     background: #f1f1f1;
+
+}
