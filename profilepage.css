@@ -15,3 +15,16 @@
 
      position:fixed;
 }
+.box{
+    box-sizing: border-box;
+    width:153px;
+    height:153px;
+    border: 2px solid #3498db;
+    box-shadow: -3px -3px 7px #ffffff73,
+                3px 3px 5px rgba(94,104,121,0.288);
+    border-radius:50%;
+    background-color: black;
+    margin-top:20px;
+    overflow:hidden;
+    transition:all 1s;
+}
