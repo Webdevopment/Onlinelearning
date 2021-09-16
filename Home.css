@@ -159,3 +159,32 @@
     font-size: 41 #aaa;
     color: #aaa;
 }
+.form-container {
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    background-color: gray;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    color: white;
+    margin-left:90px;
+    border-radius: 20px;
+    
+    
+  }
+  .btn u {
+    background-color: black;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-right:10px;
+    opacity: 0.8;
+    border-radius:10px;
+  }
+  .form-container .btnu:hover{
+    opacity: 1;
+  }
