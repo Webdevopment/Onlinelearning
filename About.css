@@ -169,3 +169,58 @@ article h5{
 
 
 }
+@media (max-width: 700px){
+    .vertical-bar{
+        display: none;
+        
+    }
+    .bann-title{
+        margin: 80px 40px;
+    }
+    .bann-title h1{
+        font-size: 50px;
+    }
+    .bann-title p{
+
+    }
+    .nav-bar{
+        padding: 10px 30px;
+    }
+    .fa-bars{
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+    .nav-bar .fa{
+        display: block;
+        color: #fff;
+        margin: 10px 25px;
+        font-size: 22px;
+        cursor: pointer;
+
+
+    }
+    .nav-links{
+        height: 100hv;
+        width: 200px;
+        background: #000;
+        top: 0;
+        right: -200px;
+        position: absolute;
+        text-align: left;
+        z-index: 2;
+    }
+    .nav-links ul a{
+        display: block;
+
+    }
+    .nav-links .btn{
+        float: none;
+        margin-left: 25px;
+        margin-top: 10px;
+
+
+    }
+
+
+}
