@@ -67,3 +67,17 @@ input[type="email"]:focus{
     transition:0.2 ease;
     
 }
+button{
+    border:1px solid #3498db;
+    background-color:black;
+    color:white;
+    height:30px;
+    width:100px;
+    border-radius:5px;
+    margin:0px;
+    transition:all 0.3s;
+}
+button:hover{
+    transform: scale(1.1);
+    
+}
