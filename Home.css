@@ -51,3 +51,31 @@
 .nav-links ul li:hover::after{
     width: 100%;
 }
+.btn{
+    padding: 10px 20px;
+    border: 0;
+    background: yellow;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.nav-links .btn{
+    float: right;
+}
+.nav-links .btn{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+.btn:hover{
+    background-color: #fff;
+}
+.btn span{
+    color: #ff7200;
+    font-size: 80px;
+}
+.bann-title{
+    margin: 80px 130px;
+    color: #fff;
+
+}
