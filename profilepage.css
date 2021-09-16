@@ -28,3 +28,14 @@
     overflow:hidden;
     transition:all 1s;
 }
+img{
+    box-sizing:border-box;
+    width:149px;
+    height:149px;
+    border-radius:50%;
+    margin:0;
+    border:5px solid #0082e6;
+    padding:3px;
+    background-color: white;
+    transition:all 1s;
+}
