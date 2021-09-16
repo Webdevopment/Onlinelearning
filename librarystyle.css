@@ -41,3 +41,17 @@ font-family: sans-serif;
 color:aliceblue;
 }
 
+.box
+{
+background-image: url(book1.jfif) ;
+height:700px;
+width: 1000px;
+margin-top: -15px;
+margin-left: 250px;
+
+
+
+
+background-repeat: no-repeat;
+
+}
