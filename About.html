@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>About page</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="About.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    </head>
+    <body>
+
+        <div class="header">
+            <div class="nav-bar">
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-times" onclick="closeMenu()"></i>
+                    <ul>
+                        <a href="#"><li>HOME</li></a>
+                        <a href="#"><li>ABOUT</li></a>
+                        <a href="#"><li>CONTACT</li></a>
+    
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </div>
+
+            <div class="bann-title">
+                <article>
+                    <h1>About us</h1>
+                    <img src="/logo/">
+                    <blockquote>
+                        <h5>Vsion Group</h5><br>
+                        " Vision is an online learning platform for every student. Student can find worldwide teachers and contact with them easily also student can find some courses and learning materials as well as our vision team is always trying to provide best thing for you, we organize some lecture session as your request also provide model papers for category as we selected.
+    Vision team a willing to help for special learning material like tablet, mobile phone, computers and laptop also you can request your needed thing for your study.
+    You can support our charity program. "
+    
+    
+                        
+                    </blockquote>
+                </article>
+            </div>
+        </div>
+
+        <div class="Footer">
+            <div class="Social">
+                <ul>
+                 <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                 <li><a href="#"><i class="fab fa-snapchat"></i></a></li>
+                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+
+
+
+        </div>
+
+        <ul class="list">
+            <li>
+             <a href="#">Like Us</a>
+            </li>
+            <li>
+             <a href="#">Contact</a>
+            </li>
+            <li>
+             <a href="#">Service</a>
+            </li>
+            <li>
+             <a href="#">Privacy policy</a>
+            </li>
+            
+        </ul>
+
+        <p class="copyright">
+            Vision Developers @2021
+      </p>
+   </div>
+
+    </body>
+</body>
+<script>
+    var show = document.getElementById("nav-links");
+    function showMenu(){
+        show.style.right = "0";
+        
+    }
+    function closeMenu(){
+        show.style.right = "-200px";
+        
+    }
+</script>
+</html>

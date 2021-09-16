@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+     
+}
+.header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(/background\ image/) ;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+.nav-bar{
+    display: flex;
+    padding: 40px 120px;
+
+}
+.nav-links{
+    flex: 1;
+}
+.nav-links ul{
+    margin-left: 50px;
+    display: inline;
+} 
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 20px;
+
+
+}
+.nav-links ul a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: yellow;
+    display: block;
+    margin: auto;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.bann-title{
+    margin: 80px 130px;
+    color: #fff;
+
+}
+.bann-title h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+
+
+}
+.bann-title h1 span{
+    color: yellow;
+    font-size: 60px;
+}
+
+.bann-title p{
+    font-size: 12px;
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.3px;
+    line-height: 20px;
+}
+.nav-bar .fa{
+    display: none;
+}
+.footer{
+    padding: 40px 0;
+    background-color:#fff ;
+}
+.footer .Social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4b;
+}
+.footer .Social a {
+    font-size: 25px;
+    color: inherit;
+    border:  1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin:0 8px;
+    opacity: 0.75;
+}
+.footer .Social a:hover {
+ opacity: 0.9; 
+}
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+    line-height: 2.5;
+    margin-bottom: 0;
+}
+.footer ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+
+}
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+
+}
+.footer .ul li a:hover{
+    opacity: 1;
+}
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 41 #aaa;
+    color: #aaa;
+}
+article h1{
+    font-size: 80px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+
+}
+article.h1::after{
+    content:'' ;
+    height: 5px;
+    width: 225px;
+    background-color: #fff;
+    display: block;
+    margin: auto;
+}
+article img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #fff;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+blockquote{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    letter-spacing: 2.5px;
+
+
+    
+
+}
+article h5{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top:30px;
+    letter-spacing: 3px;
+    text-align: center;
+
+
+}
+@media (max-width: 700px){
+    .vertical-bar{
+        display: none;
+        
+    }
+    .bann-title{
+        margin: 80px 40px;
+    }
+    .bann-title h1{
+        font-size: 50px;
+    }
+    .nav-bar{
+        padding: 10px 30px;
+    }
+    .fa-bars{
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+    .nav-bar .fa{
+        display: block;
+        color: #fff;
+        margin: 10px 25px;
+        font-size: 22px;
+        cursor: pointer;
+
+
+    }
+    .nav-links{
+        height: 100hv;
+        width: 200px;
+        background: #000;
+        top: 0;
+        right: -200px;
+        position: absolute;
+        text-align: left;
+        z-index: 2;
+    }
+    .nav-links ul a{
+        display: block;
+
+    }
+    .nav-links .btn{
+        float: none;
+        margin-left: 25px;
+        margin-top: 10px;
+
+
+    }
+
+
+}
