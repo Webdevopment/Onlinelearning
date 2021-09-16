@@ -81,3 +81,31 @@ button:hover{
     transform: scale(1.1);
     
 }
+input[type="file"]{
+    display:none;
+}
+lable{
+    box-sizing:border-box;
+    font-size: 20px;
+    background-color: black;
+    color:white;
+    border:1px solid #3498db;
+    padding:2px 15px;
+    border-radius: 5px;
+    transition:all 0.3s;
+    cursor:pointer;
+}
+lable:hover{
+    background-color: #3498db;
+    color:black;
+}
+.box:hover{
+    width:400px;
+    height:650px;
+    border-radius:5px;
+}
+.box:hover img{
+    width:150px;
+    height:150px;
+    margin:20px 31%;
+}
