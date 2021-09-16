@@ -127,3 +127,45 @@
     font-size: 41 #aaa;
     color: #aaa;
 }
+article h1{
+    font-size: 80px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+
+}
+article.h1::after{
+    content:'' ;
+    height: 5px;
+    width: 225px;
+    background-color: #fff;
+    display: block;
+    margin: auto;
+}
+article img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #fff;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+blockquote{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    letter-spacing: 2.5px;
+
+
+    
+
+}
+article h5{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top:30px;
+    letter-spacing: 3px;
+    text-align: center;
+
+
+}
