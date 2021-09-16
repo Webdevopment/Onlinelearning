@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sing up</title>
+        <link rel="stylesheet" type="text/css" href="./teachersignpstyle.css">
+        
+    </head>
+    <body>
+        <div class="Form-popup" id="MyForm">
+            <form class="login-box" action="./teacher.php" method="post">
+                <h1>Sign Up For Vision</h1>
+                <hr>
+
+                <label for="firstname"><b>First Name</b></label>
+		        <input type="text" placeholder="Enter First Name" name="firstname" required>
+
+                <label for="lastname"><b>Last Name</b></label>
+		        <input type="text" placeholder="Enter Last Name" name="lastname">
+
+                <label for="contact"><b>Enter Your Contact Number</b></label>
+		        <input type="tel" placeholder="This will appear to the public" name="contact">
+                <br><br>
+
+                <label for="email"><b>Email</b></label>
+		        <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label for="password"><b>Password</b></label>
+		        <input type="Password" id="psw" placeholder="Enter Password" name="password" required>
+
+                <label for="birthdate"><b>Birthday</b></label>
+		        <input type="date" name="birthdate" required>
+                <br><br>
+
+                <label for="gender"><b>Gender</b></label>
+		        <input type="radio" name="gender" value="m"><b>Male</b>
+		        <input type="radio" name="gender" value="f"><b>Female</b>
+                <br><br>
+
+                <label for="discibe"><b>Discribe Your Self</b></label>
+	            <input type="text" placeholder="Discribe about your teaching skill" name="discibe">
+                <br><br>
+
+                <label for="qualification" ><b>Enter Your Qualification</b></label>
+		        <input type="text" placeholder="Enter Your teaching Qualification" name="qualification">
+                <br><br>
+
+                <hr>
+                <p>By creating an account you agree to our<a href="#">Terms & Privacy</a>
+
+                    <button type="submit" class="Btn" ><b>Sing up</b></button>
+                    <button type="button" class="cancel" ><b>Cancel</b></button>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </form> 
+        </div>
+    </body>
+</html>

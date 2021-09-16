@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Sing up</title>
+        <link rel="stylesheet" type="text/css" href="./studentstyle.css">
+    </head>
+    <body>
+        <div class="Form-popup" id="MyForm">
+            <form class="login-box" action="./student.php" method="post">
+                <h1>Sign Up For Vision</h1>
+                <hr>
+
+                <label for="firstname"><b>First Name</b></label>
+		        <input type="text" placeholder="Enter First Name" name="firstname" required> 
+
+                <label for="lastname"><b>Last Name</b></label>
+		        <input type="text" placeholder="Enter Last Name" name="lastname">
+                
+                <label for="email"><b>Email</b></label>
+		        <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label for="password"><b>Password</b></label>
+		        <input type="password" id="psw" placeholder="Enter Password" name="password" required>
+
+                <label for="Birthdate"><b>Birthday</b></label>
+		        <input type="date" name="Birthdate" required>
+
+                <br><br>
+
+                <label for="gender"><b>Gender</b></label>
+		        <input type="radio" name="gender" value="m"><b>Male</b>
+		        <input type="radio" name="gender" value="f"><b>Female</b>
+
+                <p>By creating an account you agree to our<a href="#">Terms & Privacy</a>
+
+                    <button type="submit" class="Btn"><b>Sing up</b></button>
+		            <button type="button" class="cancel"><b>Cancel</b></button>
+
+
+
+            </form>
+
+        </div>
+
+     
+    </body>
+</html>
