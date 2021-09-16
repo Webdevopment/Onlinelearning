@@ -56,3 +56,14 @@ input[type="email"]{
     font-size:15px;
     transition: 0.2s ease;
 }
+input[type="text"]{
+    margin-top:25px;
+}
+input[type="text"]:focus,
+input[type="email"]:focus{
+    border-bottom:2px solid #3498db;
+    border-bottom-right-radius:20px;
+    color:#3498db;
+    transition:0.2 ease;
+    
+}
