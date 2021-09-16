@@ -120,3 +120,18 @@ form.example::after {
      background: #f1f1f1;
 
 }
+table, th, td {
+    border: 0px solid black;
+  }
+  .tab2e1img{
+      width:40%;
+      border-radius:5%;
+  }
+  .table1img{
+       width:50%;
+      border-radius:5%;
+  }
+  .table2img{
+      width:98.5%;
+      border-radius:5%;
+  }
