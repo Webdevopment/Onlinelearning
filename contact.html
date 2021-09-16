@@ -1,0 +1,157 @@
+<html>
+    <head>
+        <title></title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="./contact.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        
+ </head>
+    <body>
+        <div class="header">
+            <div class="nav-bar">
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-times" onclick="closeMenu()"></i>
+                    <ul>
+                        <a href="Untitled-1.html"><li>HOME</li></a>
+                        <a href="#"><li>ABOUT</li></a>
+                        <a href="#"><li>CONTACT</li></a>
+    
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </div>
+            <style>
+                table {
+                    border-collapse: separate;
+                    border-spacing: 0 15px;
+                    color: #fff;
+                  }
+                  th {
+                    background-color: #4287f5;
+                    color: white;
+                  }
+                  th,
+                  td
+                   {
+                    width: 150px;
+                    text-align: center;
+                    border: 4px solid #fff;
+                    padding: 5px;
+                  }
+                  h2 
+                  {
+                    color: #4287f5;
+                  }
+            </style>
+            <section class="Contact">
+                <div class="content">
+                    <h2><center>Contact Us</center></h2>
+                    <h3><center>If you have any problem,contact us and solve it.</center></h3>
+                </div>
+                <div>
+                    <center>
+                        <table>
+                            <tr>
+                                <th>Name</th><br>
+                                <th>Phone NO</th>
+                                <th>Email Adress</th>
+                            </tr>
+                            <tr>
+                                <td>R.M.J.M.Bandara</td>
+                                <td>0771320533</td>
+                                <td>rmjmbandara@students.nsbm.ac.lk</td>
+                            </tr>
+                            <tr>
+                                <td>K.H.P.M.Gunarathna</td>
+                                <td>0712570312</td>
+                                <td>khpmgunarathna@students.nsbm.ac.lk</td>
+                            </tr>
+                            <tr>
+                                <td>L.N.P.Ariyarathna</td>
+                                <td>07687505330</td>
+                                <td>lnpariyarathna@students.nsbm.ac.lk</td>
+                            </tr>
+                            <tr>
+                                <td>S.P.Kudagama</td>
+                                <td>0754415382</td>
+                                <td>spkudagama@students.nsbm.ac.lk</td>
+                            </tr>
+                            <tr>
+                                <td>R.M.D.N.Rathnayaka</td>
+                                <td>0712752099</td>
+                                <td>rmdnrathnayaka@students.nsbm.ac.lk</td>
+                            </tr>
+                        </center>
+                        </table>
+                    </div>
+                    <div class="contactForm">
+                        <center>
+                        <form>
+                            <h2>Send Message</h2>
+                            <div class="inputBox">
+                                <input type="text" name="" required="required">
+                                <span>Full Name</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="text" name="" required="required">
+                                <span>Email</span>
+                            </div>
+                            <div class="inputBox">
+                                <textarea required="required"></textarea> 
+                                <span>Type a Message...</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="submit" name=""  value="Send">
+                                </center>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="Footer">
+                        <div class="Social">
+                            <ul>
+                             <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                             <li><a href="#"><i class="fab fa-snapchat"></i></a></li>
+                             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <ul class="list">
+                            <li>
+                             <a href="#">Like Us</a>
+                            </li>
+                            <li>
+                             <a href="#">Service</a>
+                            </li>
+                            <li>
+                             <a href="#">Blog</a>
+                            </li>
+                            <li>
+                             <a href="#">Privacy policy</a>
+                            </li>
+                            
+                        </ul>
+
+                    <p class="copyright">
+                        Vision Developers @2021
+                  </p>
+               </div>
+             </body>
+             <script>
+                var show = document.getElementById("nav-links");
+                function showMenu(){
+                    show.style.right = "0";
+                    
+                }
+                function closeMenu(){
+                    show.style.right = "-200px";
+                    
+                }
+            </script>
+    </body>
+
+</html>
