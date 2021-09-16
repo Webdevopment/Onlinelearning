@@ -6,7 +6,7 @@
 }
 .header{
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(sharon-mccutcheon-eMP4sYPJ9x0-unsplash.jpg) ;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(/Background_image/sharon-mccutcheon-eMP4sYPJ9x0-unsplash.jpg) ;
     background-position: center;
     background-size: cover;
     overflow-x: hidden;
