@@ -42,3 +42,48 @@ nav ul li a{
    text-decoration: none;
     color:#fff;
 }
+.pimg{
+    box-sizing:border-box;
+    width:149px;
+    height:149px;
+    border-radius:50%;
+    margin:0;
+    border:3px solid #fff;
+    padding:3px;
+    background-color: white;
+    transition:all 1s;
+    margin: 0;
+    padding: 0;
+} 
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 70%;
+  background: #f1f1f1;
+  border-radius: 20px;
+}
+
+.Search{
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
