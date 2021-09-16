@@ -32,6 +32,22 @@
                     <p>Online teaching is the process of educating others via the internet.<br> various methods can be used,<br>01)such as one-on- one video calls<br>02) group video calls<br>03) webinars</p>
                     <button type="button" class="btn" onclick="openform()">JOIN US</button>
                 </div>
+
+                <div class="form-popup">
+                    <form class="form-container" id="myform">
+        
+                        <label for="teacher-student"><b>JOIN AS</b></label><br><br>
+                        <input type="radio" name="teacher-student" value="Student" id="stdent" onclick="nextpage()"><b>Student</b>
+                        <input type="radio" name="teacher-student" value="Teacher" id="teacher" onclick="nextpage()"><b>Teacher</b>
+                        <br><br>
+        
+                        <button type="submit" class="btnu" >Signup</button>
+                        <br><br>
+                        <button type="button" class="btnu" onclick="closeform()">Close</button>
+        
+                    </form>
+                    </div>
+        
                     
     </body>
 </html>
