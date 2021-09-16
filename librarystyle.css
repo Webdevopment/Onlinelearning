@@ -71,3 +71,11 @@ webkit-transition-duration: 200ms;
 transition-duration: 200ms;
 
 }
+
+.swagbutton:hover
+{
+background-color: rgb(108, 169, 238);
+color: rgb(24, 46, 248);
+
+
+}
