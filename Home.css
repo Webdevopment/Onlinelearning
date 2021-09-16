@@ -79,3 +79,26 @@
     color: #fff;
 
 }
+.bann-title h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+
+
+}
+.bann-title h1 span{
+    color: yellow;
+    font-size: 60px;
+}
+
+.bann-title p{
+    font-size: 18px;
+    margin-bottom: 25px;
+    
+    letter-spacing: 1.3px;
+    line-height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+
+
+
+}
