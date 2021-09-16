@@ -15,3 +15,31 @@
 
      position:fixed;
 }
+input[type="text"],
+input[type="text"]{
+    display:block;
+    box-sizing: border-box;
+    background: none;
+    color:#3498db;
+    margin-bottom: 30px;
+    padding:4px;
+    width:220px;
+    height:32px;
+    border:none;
+    border-bottom:1px solid #0082e6;
+    font-family: 'Roboto',sans-serif;
+    font-weight:400;
+    font-size:15px;
+    transition: 0.2s ease;
+}
+input[type="text"]{
+    margin-top:25px;
+}
+input[type="text"]:focus,
+input[type="text"]:focus{
+    border-bottom:2px solid #3498db;
+    border-bottom-right-radius:20px;
+    color:#3498db;
+    transition:0.2 ease;
+    
+}
