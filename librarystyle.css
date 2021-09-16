@@ -23,3 +23,7 @@ transition:all 0.3s;
 font-size: 35px;
 
 }
+.back_button:hover
+{
+transform: scale(1.1);
+}
