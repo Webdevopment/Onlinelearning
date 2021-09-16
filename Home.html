@@ -47,6 +47,26 @@
         
                     </form>
                     </div>
+
+                    <script>
+                        function openform() {
+                          document.getElementById("myform").style.display = "block";
+                        }
+                        
+                        function closeform() {
+                          document.getElementById("myform").style.display = "none";
+                        }
+                        function nextpage(){
+                        if(document.getElementById('stdent').checked)
+                        {
+                            window.location.href="stdentsignup.html";
+                        }
+                        else if(document.getElementById('teacher').checked)
+                        {
+                            window.location.href="teachersignup";
+                        }
+                        }
+                        </script>
         
                     
     </body>
