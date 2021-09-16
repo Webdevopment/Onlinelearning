@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#banner{
+    min-height: 100vh;
+
+    width: 100%;
+
+    background-position: center;
+
+    background-size: cover;
+
+    position: relative;
+}
+.banner-text{
+    margin-left: 200px;
+}
+.banner-text h1{
+    font-size: 130px;
+}
+.banner-text p{
+    font-size: 20px;
+    font-style: italic;
