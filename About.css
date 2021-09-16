@@ -46,3 +46,30 @@
 }
 .nav-links ul li:hover::after{
     width: 100%;
+}
+.bann-title{
+    margin: 80px 130px;
+    color: #fff;
+
+}
+.bann-title h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+
+
+}
+.bann-title h1 span{
+    color: yellow;
+    font-size: 60px;
+}
+
+.bann-title p{
+    font-size: 12px;
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.3px;
+    line-height: 20px;
+}
+.nav-bar .fa{
+    display: none;
+}
